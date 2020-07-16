@@ -8,7 +8,7 @@
 2)The project structure:
 
 --folder research: Python notebook and scripts for dataset loading, model formation, training, testing, saving model and conversion to .pb and .uff file.
-	--folder model: will contain .h5, .pb and .uff model file (I am adding all the files but they can also be saved after running python scripts)	
+	--folder model: will contain .h5 model file
 	--folder findings: Graphs developed during training for monitoring accuracy and loss
 	--folder inference: 
 		--folder src: CmakeLists.txt, c++ source file for generating engine from uff and inference on test_data
