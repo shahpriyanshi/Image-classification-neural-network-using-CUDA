@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION "3.18.0-rc2")
+project("inference")
+include_directories("../include")
+link_directories("../lib")
+
+add_executable("${PROJECT_NAME}" "uff_2_engine_and_inference.cpp")
+target_link_libraries("${PROJECT_NAME}" opencv_world412d nvparsers nvinfer)
