@@ -1,5 +1,3 @@
-# Production-ready-Image-Classification-Neural-Network-for-C-front-end
-
 1)Requirements:
 --Visual Studio 2019
 --Cuda - version 10.1, Cudnn - version 7.6.5, Tensorrt version 7.0.0.11
