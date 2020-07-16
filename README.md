@@ -39,16 +39,3 @@
 				which is the path of nvidia gpu toolkit library files.
 				--click ok ok untill ypu exit dialogue boxes.
 		--click on local windows debugger in the top menu pane in visual studio to build and run the project solution.
-
-
-4)Results:
-
-(attempted the bonus section as well)
-Training on 30 epochs on cifar10 dataset using data augmentation gave training accuracy as 79% and validation accuracy 80% (Training for more epoch will surely improve the 
-accuracy as the accuracy graph is increasing and loss graph is decreasing)
-
-Testing on test dataset using .h5 model file gave 81.9 % accuracy
-The whole test_data inference with .h5 file on batch_size=1 completed in 4.48seconds.
-
-
-The whole test_data inference with engine and batch_size=1 completed in 658.43 milli seconds.
